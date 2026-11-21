@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mekuna La Couturière — Invoice MC / 001</title>
+<style>
+:root{--ink:#17120f;--gold:#b58a4a;--cream:#fff8ee;--pale:#f7ebdd;--muted:#6c5740}
+*{box-sizing:border-box}body{margin:0;background:#eee4d8;color:var(--ink);font-family:Georgia,'Times New Roman',serif;padding:24px}
+.invoice{max-width:850px;margin:0 auto;background:var(--cream);border:1px solid var(--gold);border-radius:16px;padding:34px;box-shadow:0 12px 40px #0002}
+.brand{text-align:center}.brand h1{font-size:clamp(28px,5vw,42px);margin:0}.tag{font-style:italic;color:var(--muted);font-size:18px}
+.contact,.strap{text-align:center;font-size:13px;margin:12px 0}.strap{letter-spacing:3px;font-weight:bold}
+.rule{height:1px;background:var(--gold);margin:18px 0}
+.top{display:flex;justify-content:space-between;gap:24px;align-items:center}.top h2{font-size:clamp(40px,8vw,64px);margin:0}.dates{border-left:2px solid var(--gold);padding-left:18px;line-height:1.55}
+.bill{margin:18px 0;border:1px solid var(--gold);border-radius:12px;overflow:hidden}.bar{background:var(--ink);color:#f0d4a6;padding:8px 14px;font-weight:bold}.bill .details{padding:12px 14px;line-height:1.7}
+table{width:100%;border-collapse:collapse;margin-top:14px}th{background:var(--ink);color:#f0d4a6}th,td{padding:12px 10px;border:1px solid var(--gold);text-align:left}td:nth-child(1),td:nth-child(3){text-align:center}td:nth-child(4),td:nth-child(5){text-align:right}tbody tr:nth-child(even){background:var(--pale)}
+.totals{max-width:470px;margin:0 0 18px auto}.totals div{display:flex;justify-content:space-between;padding:8px 10px;border-bottom:1px solid var(--gold);gap:14px}.totals .grand{background:var(--ink);color:#f0d4a6;border-radius:10px;font-size:20px;font-weight:bold}
+.payment{display:grid;grid-template-columns:1.2fr 1fr;gap:14px}.panel{border:1px solid var(--gold);border-radius:12px;overflow:hidden}.panel .inside{padding:14px;line-height:1.7}.balance{text-align:center;background:var(--pale);padding:16px;font-weight:bold;line-height:1.8}.balance strong{font-size:24px}
+.thanks{text-align:center;margin:26px 0 10px;font-style:italic;font-size:23px}.foot{text-align:center;font-size:12px;letter-spacing:2px;margin-top:18px}
+.actions{text-align:center;margin:18px auto}.actions button{background:var(--ink);color:#f0d4a6;border:0;border-radius:24px;padding:12px 22px;font:inherit;cursor:pointer}
+@media(max-width:600px){body{padding:8px}.invoice{padding:18px 12px}.top{align-items:flex-start;flex-direction:column}.dates{border-left:0;border-top:2px solid var(--gold);padding:10px 0 0}.payment{grid-template-columns:1fr}th,td{padding:8px 5px;font-size:12px}.contact{line-height:1.8}}
+@media print{body{background:white;padding:0}.invoice{box-shadow:none;border:0;max-width:none}.actions{display:none}}
+</style></head>
+<body><main class="invoice">
+<header class="brand"><h1>Mekuna La Couturière</h1><div class="tag">...seam to perfection</div>
+<div class="contact">☎ +234 812 157 5298 &nbsp; | &nbsp; Instagram: Mekuna_la_couturiere &nbsp; | &nbsp; TikTok: Mekunal<br>✉ gloryanukem12345@gmail.com</div>
+<div class="strap">COUTURE • BESPOKE • READY TO WEAR</div></header><div class="rule"></div>
+<section class="top"><h2>INVOICE</h2><div class="dates"><b>ISSUE DATE:</b><br>12 November 2026<br><br><b>DELIVERY DATE:</b><br>9 January 2027</div></section>
+<div class="bill"><div class="bar">BILL TO</div><div class="details"><b>Client’s Name:</b> Nwanneka<br><b>Phone Number:</b> +234 816 927 3842<br><b>Invoice No.:</b> MC / 001</div></div>
+<table><thead><tr><th>S/N</th><th>Description</th><th>Qty</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody>
+<tr><td>1</td><td>Top</td><td>2</td><td>₦7,000</td><td>₦14,000</td></tr>
+<tr><td>2</td><td>Palazzo Pant</td><td>1</td><td>₦7,000</td><td>₦7,000</td></tr>
+<tr><td>3</td><td>Short Gown</td><td>1</td><td>₦9,000</td><td>₦9,000</td></tr>
+<tr><td>4</td><td>Top and Skirt Combo</td><td>1</td><td>₦13,000</td><td>₦13,000</td></tr>
+</tbody></table>
+<section class="totals"><div><b>SUBTOTAL</b><b>₦43,000</b></div><div><b>ADDITIONAL CHARGES (Material)</b><b>₦15,000</b></div><div class="grand"><span>TOTAL ORDER</span><span>₦58,000</span></div></section>
+<section class="payment"><div class="panel"><div class="bar">PAYMENT INFORMATION</div><div class="inside"><b>Bank Name:</b> Fidelity Bank<br><b>Account Number:</b> 6370658660<br><b>Account Name:</b> Anukem Glory</div></div>
+<div class="panel"><div class="balance">DEPOSIT PAID<br>₦0<br><br>BALANCE DUE<br><strong>₦58,000</strong></div></div></section>
+<div class="thanks">Thank you for choosing Mekuna La Couturière.</div><div style="text-align:center">We appreciate your patronage.</div>
+<div class="foot">STYLE &nbsp; | &nbsp; ELEGANCE &nbsp; | &nbsp; CONFIDENCE<br><br><i>...seam to perfection</i></div>
+<div class="actions"><button onclick="window.print()">Print / Save as PDF</button></div>
+</main></body></html>
